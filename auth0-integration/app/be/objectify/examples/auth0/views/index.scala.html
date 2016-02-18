@@ -1,0 +1,14 @@
+@import be.objectify.examples.auth0.models.User
+@(title: String, maybeUser: Optional[User])
+
+@main(title, maybeUser) {
+    @if(maybeUser.isPresent) {
+        @defining(maybeUser.get) { user =>
+          <p>Hello @user.getName</p>
+          <img src="@user.getAvatarUrl"/>
+        }
+    }
+
+    <p>This content is only visible to authenticated users.</p>
+    <p><a href="@be.objectify.examples.auth0.controllers.routes.AuthController.logOut()">Log out</a></p>
+}

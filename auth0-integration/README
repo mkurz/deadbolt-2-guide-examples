@@ -1,0 +1,3 @@
+# Example Deadbolt integration with Auth0
+
+This application is an example of how to integrate Deadbolt with Auth0 to provide authentication and authorization.  See the [Deadbolt Guide](https://github.com/schaloner/deadbolt-2-guide) for further information.

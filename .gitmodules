@@ -1,0 +1,3 @@
+[submodule "deadbolt-auth0-scala"]
+	path = deadbolt-auth0-scala
+	url = git@github.com:schaloner/deadbolt-auth0-scala.git

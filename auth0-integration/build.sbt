@@ -1,4 +1,4 @@
-name := """auth0-integration"""
+name := """deadbolt-auth0-java"""
 
 version := "1.0-SNAPSHOT"
 
